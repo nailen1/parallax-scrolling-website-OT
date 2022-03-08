@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
     scroll-behavior:smooth;
 }
 body {
@@ -46,11 +46,11 @@ header ul li a{
     padding: 6px 15px;
     color: #fff;
     border-radius: 20px;
-    border: 1px dashed red;
+    /* border: 1px dashed red; */
 
 }
 
-@media (max-width: 450px){
+@media (max-width: 620px){
     header{
         display: flex;
         flex-direction: column;
@@ -78,7 +78,7 @@ section{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    border: 1px dashed red;
+    /* border: 1px dashed red; */
 }
 section::before{
     content: "";
@@ -88,7 +88,7 @@ section::before{
     height: 100px;
     background: linear-gradient(to top, #1c0522, transparent);
     z-index: 1000;
-    border: 1px dashed green;
+    /* border: 1px dashed green; */
 }
 section img{
     position: absolute;
@@ -114,7 +114,7 @@ section img#mountains_front{
     white-space: nowrap;
     font-size: 7vw;
     z-index: 9;
-    border: 1px dashed yellow;
+    /* border: 1px dashed yellow; */
 }
 #btn{
     text-decoration: none;
@@ -124,7 +124,7 @@ section img#mountains_front{
     background: #fff;
     color: #2b1055;
     font-size: 1.5em;
-    border: 1px dashed yellow;
+    /* border: 1px dashed yellow; */
     transform: translateY(100px);
 
 }
@@ -144,7 +144,7 @@ section img#mountains_front{
     color: #fff;
 }
 
-@media (max-width: 450px){
+@media (max-width: 620px){
     .sec {
         padding: 30px
     }
